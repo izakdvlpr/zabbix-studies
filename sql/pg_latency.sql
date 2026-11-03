@@ -1,0 +1,1 @@
+SELECT round(avg(mean_exec_time)::numeric, 2) FROM pg_stat_statements;
